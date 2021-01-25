@@ -1,0 +1,351 @@
+body {
+    font-family: 'Kufam', cursive;
+    color:#05281d;
+}
+
+/*AGEGATE styling*/
+.cta-button {
+    text-align: center;
+    color: #ffffff;
+    width: 500px;
+    padding: 15px;
+    background-color: rgba(224, 139, 11, 0.7);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/*Navbar styling*/
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+#nav-header {
+    background-color: #05281d;
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+.navbar-toggler {
+    margin: 0 auto;
+}
+
+.navbar-nav li {
+    margin: 0 25px;
+    padding-top: 25px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.navbar-text {
+    font-weight: bold;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.contact-btn {
+    color: #ffffff;
+    background-color: #10a8b3;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Alert Section */
+.alert {
+    text-align: center;
+    letter-spacing: 1px;
+    top: 100px;
+    background-color: #ee1308;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 6px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+    z-index: 1;
+    display: flex;
+    
+}
+
+/*agegate-index  callout styling*/
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/cañeros.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block-divider--orange {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #05281d;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Jumbotron */
+/*agegate-index styling*/
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #05281d;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+
+}
+
+.jumbotron .lead {
+    color:#ffffff;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* buttons */
+.btn--red {
+    color: white;
+    background-color: #10a8b3;
+    border-color: #10a8b3;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+
+
+
+
+/* Footer Styling */
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #05281d;
+
+}
+.footer-contact {
+    color: black;
+}
+.top-button {
+    text-align: center;
+}
+.ftr-contact-btn {
+    margin-right: 0;
+    color: #ffffff;
+    background-color: #10a8b3;
+    border: 0;
+}
+
+/* Section central index */
+.why-us-section {
+    color: #05281d;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+.your-way {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.h1-ylw {
+    color: #ffc107;
+    font-weight: bold;
+}
+.short-bar {
+    width: 50%;
+    border: 1px solid #ffc107;
+}
+
+
+/* tour */
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/brewery.jpg');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+
+}
+
+.hero-section h3 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px #ffc107;
+}
+@keyframes hero-zoom {
+    0% {
+        transform: scale(1);
+   }
+    100% {
+        transform: scale(1.1);
+   }
+}
+
+.hero-button {
+    text-align: center;
+    color: #ffffff;
+    width: 500px;
+    padding: 15px;
+    background-color: rgba(24, 22, 44, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+
+/* Media Screen Section*/
+@media screen and (max-width:400px) {
+    .why-us {
+        padding-left: 0;
+   }
+    .lead, p {
+        font-size: 1rem;
+        text-align: center;
+   }
+    .featurette-heading {
+        font-size: 1.5rem;
+        text-align: center;
+   }
+}
+@media screen and (max-width: 468px) {
+    .cta-button {
+        font-size: 75%;
+        top: 65%;
+        width: 230px;
+   }
+    .navbar-nav li {
+        margin-right: 0px;
+   }
+    .hero-section h3 {
+        font-size: 20px;
+   }
+    .navbar-brand {
+        font-size: 20px;
+   }
+}
+@media screen and (max-width: 768px ) {
+    .mybtn {
+        margin-right: 15px;
+   }
+}
+@media screen and (min-width:992px) {
+    .latest-offers {
+        margin-top: 60px;
+        padding-bottom: 0;
+        padding-top: 120px;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .alert {
+        top: 60px;
+   }
+}
+@media screen and (max-width:1161px) {
+    .alert {
+        font-size: 12px;
+   }
+}
+
+/*Offers Section*/
+.deals-area {
+    background-color: #05281d;
+    padding-bottom: 50px;
+}
+
+.latest-offers {
+    background-image: url("../images/beers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 360px;
+    overflow: hidden;
+    padding-top: 160px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.group-title {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card-deck {
+    padding: 20px 20px;
+}
+.card {
+    border: 1px solid  #05281d;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+
