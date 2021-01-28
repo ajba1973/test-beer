@@ -27,7 +27,7 @@
 <!-- header navbar -->
 <nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark ">
     <a class="navbar-brand" href="index.html">3CBCo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,9 +41,7 @@
         <li class="nav-item">
           <a class="nav-link" href="tour.html">Book a Tour </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
-        </li>
+        
         <li class="nav-item phone-number d-none d-lg-block my-2">
             <p><i class="fas fa-phone"></i> Call Us 061 616161</p>
         </li>
@@ -61,7 +59,7 @@
   </nav>
 
    <!--Alert Section-inspired to use from CI Whiskey Drop class-->
-   <div class="alert alert-primary d-none d-lg-block d-xl-block" role="alert">
+   <div class="alert alert-primary d-none d-md-block d-lg-block d-xl-block" role="alert">
     All Brewery tours are currently suspended due to Covid-19. We apologise for any inconvenience caused.
     <a href="#" class="alert-link" data-toggle="modal" data-target="#signUpModal"> Sign Up!!! </a>
     
@@ -70,21 +68,26 @@
 
  <!--Hero image cta section-->
  <section class="hero-section">
-    <div class="hero-button">
-        <h3>3CBCo  TOUR</h3>
+    <div class="hero-button mt-4 text-center">
+        <h1>3CBCo  TOUR</h1>
+        <div class="d-none d-md-block">
         <p><i class="fas fa-beer"></i> Take a tour of an artisan craft brewery</p>
+       
         <p><i class="fas fa-beer"></i> Experience a working brewery and see beer being brewed</p>
+    
         <p><i class="fas fa-beer"></i> Enjoy a complimentary beer tasting as part of your tour</p>
+    </div>
         <h3>Book your tour:</h3>
         <h3><span class="h1-ylw"> 12 Eur per person</span></h3>
-        <div class="contact-btn">
-            <div class="d-none d-lg-block">
-                <button type="button" class="btn btn-light btn-lg my-2 my-sm-0 contact-btn " data-toggle="modal"
+        
+
+            
+                <button type="button" class="btn btn-light btn-lg my-2 my-sm-0  btn--cta btn--red" data-toggle="modal"
                     data-target="#bookmodal" aria-label="contact">Book Now!
                 </button>
-            </div>
-        </div>
-        <p class="text-muted"><small><mark>You must be over 18 to book your tour.</mark></small></p>
+            
+        
+        <p class="text-muted mt-2"><small><mark>You must be over 18 to book your tour.</mark></small></p>
     </div>
 </section>
 
@@ -107,6 +110,30 @@
     </p>
     <br>
     <hr class="block-divider short-bar">
+
+
+    <div class="d-lg-none d-md-none">
+        <h3>3CBCo  TOUR</h3>
+        <p><i class="fas fa-beer"></i> Take a tour of an artisan craft brewery</p>
+ 
+        <p><i class="fas fa-beer"></i> Experience a working brewery and see beer being brewed</p>
+   
+        <p><i class="fas fa-beer"></i> Enjoy a complimentary beer tasting as part of your tour</p>
+        <h3>Book your tour:</h3>
+        <h3><span class="h1-ylw"> 12 Eur per person</span></h3>
+        
+
+            
+                <button type="button" class="btn btn-light btn-lg my-2 my-sm-0  btn--cta btn--red" data-toggle="modal"
+                    data-target="#bookmodal" aria-label="contact">Book Now!
+                </button>
+            
+        
+        <p class="text-muted mt-2"><small><mark>You must be over 18 to book your tour.</mark></small></p>
+ 
+    
+    <hr class="block-divider short-bar">
+</div>
     
 </section>
 
