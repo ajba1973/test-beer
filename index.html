@@ -27,7 +27,7 @@
 <!-- header navbar -->
 <nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark ">
     <a class="navbar-brand" href="index.html">3CBCo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -50,7 +50,7 @@
       </ul>
     </div>
 
-    <!--Enquire button and modal form here- copied and edited from MDBootstrap-->
+    <!--Contact button and modal form here- copied and edited from MDBootstrap-->
     <div class="contact-btn">
         <div class="d-none d-lg-block">
             <button type="button" class="btn btn-light btn-lg my-2 my-sm-0 contact-btn " data-toggle="modal"
@@ -97,7 +97,7 @@
     <div class="col-md-7 mb-4">
 
       <div class="view overlay z-depth-1-half">
-        <img src="assets/images/brewery.jpg" class="card-img-top" alt="">
+        <img src="assets/images/brewery.jpg" class="card-img-top" alt="brewery">
         <div class="mask rgba-white-light"></div>
       </div>
 
@@ -106,9 +106,10 @@
 
     <!--Grid column-->
     <div class="col-md-5 mb-4">
-
+    
+    <div class="row justify-content-center">
       <h2>Welcome to 3CBCo <img src="assets/images/calavera.png" width="40" height="40" class="d-inline-block align-top" alt="calavera"  /></h2>
-      
+    </div>
       <p>Founded in 2019 by three friends, Cesar, Juan, and Alex, 3CBCo has become a mainstay of the craft brewing scene in the West and nationwide.</p>
       <p> 3CBCo brews lagers, and only lagers. Born in the high alps of Bavaria over 200 years ago, lagers became a beloved brew all across Europe.</p> 
       <p>Lagers feature a distinctive smoothness and fullness that no other beer has and we think everyone deserves.
@@ -117,16 +118,23 @@
         
         .</p>
 
-        <h3>Drink Lager!!<span class="h1-ylw"> Salud! Sláinte!</span></h3>
+        <div class="row justify-content-center">
+        
+            <h3>Drink Lager!!<span class="h1-ylw"> Salud! Sláinte!</span></h3>
 
-      <a href="beer.html" class="btn btn-info">Our Beers Get Them Now!</a>
+        </div>
+        
+            <div class="row justify-content-center">
+                <a href="beer.html" class="btn btn-info btn-beer">Our Beers Get Them Now!</a>
+
+            </div>
 
     </div>
     <!--Grid column-->
 
   </div>
 
-   <!--Why choose us section-text copied from Flexiski and edited slightly-->
+   <!--Why us section-text copied from Treaty city, Jack's Abbey, Mescan  and edited slightly-->
    <section class="why-us-section">
     <hr class="block-divider short-bar">
     <h1>About Us </h1>
@@ -141,6 +149,12 @@
         We hand built our microbrewery over a 6 month period and where possible sourced as much of the labor and materials locally. 
         We estimate that 70% of the expenditure for our brewery was spent within the county of Limerick and we are very proud of this. 
         The water we use comes directly from the River Shannon and is some of the best water in the world for brewing Largers.
+    </p>
+
+    <p>
+        3CBCo would be nothing without our growing team of dedicated men and women. We’re headed up by the three friends: Alex as "the Alchemist", Cesar as "the Brain" , and Juan as "the Engineer".
+
+We’re a motley crew, with lab-techs who also bartend, brewing assistants who drive forklifts—talented individuals who do everything that needs to be done for 3CBCo to do what it does best—brew lagers.
     </p>
     
     <br>
@@ -157,6 +171,7 @@
   </div>
   <hr class="short-bar" />
 </section>
+<!--Why us section-->
 
 
 <!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
@@ -335,7 +350,7 @@
                           placeholder="Contact Number"></textarea>
                   </div>
                   <div class="form-group">
-                      <label for="exampleFormControlTextarea1"><i class="fas fa-snowflake"></i> Enquiry
+                      <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
                           details:</label>
                       <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
                           placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
